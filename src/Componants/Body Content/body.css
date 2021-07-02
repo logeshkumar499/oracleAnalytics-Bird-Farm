@@ -1,0 +1,113 @@
+.content-padding {
+    padding-top: 34px;
+}
+.header {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.sub-header {
+    font-size: 12px;
+    font-weight: 600;
+}
+.highlighted-text {
+    color: #f9295e;
+}
+.search-control {
+    width: 90%;
+    margin-left: auto;
+    font-family: Arial, FontAwesome;
+}
+.form-control-custom {
+    border: 0;
+}
+.form-control-sm {
+    min-height: calc(1.5em + .5rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+}
+.form-control {
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-custom {
+    background: #f4ecf0;
+    border: 1px solid #f6dedb;
+    border-radius: 15px 15px 15px 0;
+    font-size: 11px;
+    font-weight: 700;
+    transition: .7s;
+    min-width: 100px;
+    line-height: 1.5;
+}
+
+/* card */
+
+.tempnail {
+    width: 34px;
+    height: 34px;
+    margin: auto;
+    background-color: #f4f5f7;
+    border-radius: 50px;
+    display: inline-block;
+}
+.temp-img {
+    max-width: 60%;
+    max-height: 60%;
+    margin: 20%;
+}
+.temp-client {
+    transform: translate(-5px);
+    box-shadow: 0 0 4px 0.1rem #dedede;
+}
+.token-list-card {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.card-custom {
+    justify-content: center;
+    text-align: center;
+    border: 0;
+    min-height: 260px;
+}
+.token-list-card-header {
+    color: #495f7f;
+}
+.card-title {
+    margin-bottom: none;
+}
+.card-subtitle {
+    margin-top: -.25rem;
+    margin-bottom: 0;
+}
+.token-list-card-content {
+    font-size: 12px;
+}
+.token-id-text {
+    color: #495f7f;
+    font-size: 13px;
+    font-weight: 700;
+}
+.card-custom .btn-custom {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%);
+}
+.btn-custom:hover {
+    background: #f9295e;
+    border: 1px solid #f9295e;
+    color: #fff;
+    transition: .7s;
+}
+.btn-custom:active {
+    box-shadow: 0 0 0 0.09rem #ededee;
+}
